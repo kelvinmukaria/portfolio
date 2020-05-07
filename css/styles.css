@@ -1,31 +1,56 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* Add a black background color to the top navigation */
+.topnav {
   background-color: #333;
+  overflow: hidden;
 }
 
-li {
+/* Style the links inside the navigation bar */
+.topnav a {
   float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.two{
-  style= width: 500px;
-         height: 500px;
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
-.container{
-  background-color: #AED1A9s;
+img{
+  width: 400px;
+  height: 500px;
+  float: center;
+}
+h1 {
+  float: center;
+  color:  #FF3283;
+  text-align: center;
+}
+h2 {
+  color: #9D2911 ;
+  float: inherit;
+  font-family: verdana;
+  text-align: center;
+  text-decoration: underline;
+}
+.test{
+  border: 2px solid red;
+  padding: 6px;
+  margin: 20px;
+  background-color:beige;
+}
+body{
+  background-color: teal;
+}
+body{
+  background-image: image(IMG_1988);
 }
