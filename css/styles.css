@@ -40,7 +40,7 @@ h2 {
   float: inherit;
   font-family: verdana;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 .test{
   border: 2px solid red;
@@ -49,8 +49,8 @@ h2 {
   background-color:beige;
 }
 body{
-  background-color: teal;
+  background-color: #344432;
+  text-align: center;
+  text-decoration-color: hsla( , saturation, lightness, alpha);
 }
-body{
-  background-image: image(IMG_1988);
-}
+
